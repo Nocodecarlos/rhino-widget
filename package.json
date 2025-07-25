@@ -14,13 +14,4 @@
     "@tensorflow/tfjs-node": "^4.22.0",
     "node-fetch": "^3.3.2"
   }
-  {
-  "name": "rhino-widget",
-  "version": "1.0.0",
-  "dependencies": {
-    "@tensorflow/tfjs-node": "^4.22.0",
-    "node-fetch": "^3.0.0"
-  }
-}
-
 }
