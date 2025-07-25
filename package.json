@@ -9,5 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "node-fetch": "^3.3.2"
+  }
 }
