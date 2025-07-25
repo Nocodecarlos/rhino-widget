@@ -32,7 +32,7 @@ module.exports = async (req, res) => {
     const { lat, lng } = geoJson.results[0].geometry.location;
 
     // 2) Fetch the static map image
-    const mapUrl = `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lng}&zoom=19&size=512x512&maptype=satellite&key=${process.env.GOOGLE_MAPS_KEY}`;
+const mapUrl = `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lng}&zoom=19&size=512x512&maptype=satellite&key=${process.env.GOOGLE_MAPS_KEY}`;
     const mapResp = await fetch(mapUrl);
     const imgBuffer = await mapResp.buffer();
 
